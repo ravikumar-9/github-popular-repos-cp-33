@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.repo-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.popular-heading {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'sans serif';
+  color: #0f172a;
+  text-align: center;
+}
+.filter-items-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  list-style-type: none;
+}
+.repo-lists-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}

@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.active-id {
+  border: 3px solid #0284c7;
+  border-radius: 10px;
+  height: 30px;
+  width: max-content;
+  font-size: 17px;
+  font-weight: bold;
+}
+.inactive-id {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+.item-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: bolder;
+}
